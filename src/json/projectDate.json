@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "name": "project1",
+    "description": "lorem loremloremloremloremloremloremloremloremloremlorem id=1",
+    "tools": ["html", "css", "js"],
+    "slider": [
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png"
+    ],
+    "image": "Screenshot from 2023-02-15 11-46-52.png",
+    "links": {
+      "github": "https://abdoo.live/#main",
+      "linkedin": "https://abdoo.live/#main"
+    }
+  },
+  {
+    "id": 2,
+    "name": "project2",
+    "description": "lorem loremloremloremloremloremloremloremloremloremlorem id =2",
+    "slider": [
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png"
+    ],
+    "image": "Screenshot from 2023-02-15 11-46-52.png",
+    "links": {
+      "github": "https://abdoo.live/#main",
+      "linkedin": "https://abdoo.live/#main"
+    }
+  },
+  {
+    "id": 3,
+    "name": "project3",
+    "description": "lorem loremloremloremloremloremloremloremloremloremlorem d=3",
+    "slider": [
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png"
+    ],
+    "image": "Screenshot from 2023-02-15 11-46-52.png",
+    "links": {
+      "github": "https://abdoo.live/#main",
+      "linkedin": "https://abdoo.live/#main"
+    }
+  },
+  {
+    "id": 4,
+    "name": "project4",
+    "description": "lorem loremloremloremloremloremloremloremloremloremlorem d =4",
+    "slider": [
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png"
+    ],
+    "image": "Screenshot from 2023-02-15 11-46-52.png",
+    "links": {
+      "github": "https://abdoo.live/#main",
+      "linkedin": "https://abdoo.live/#main"
+    }
+  },
+  {
+    "id": 5,
+    "name": "project5",
+    "description": "lorem loremloremloremloremloremloremloremloremloremlorem d=5",
+    "slider": [
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png"
+    ],
+    "image": "Screenshot from 2023-02-15 11-46-52.png",
+    "links": {
+      "github": "https://abdoo.live/#main",
+      "linkedin": "https://abdoo.live/#main"
+    }
+  },
+  {
+    "id": 6,
+    "name": "project5",
+    "description": "lorem loremloremloremloremloremloremloremloremloremlorem d=5",
+    "slider": [
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png",
+      "Screenshot from 2023-02-15 11-46-52.png"
+    ],
+    "image": "Screenshot from 2023-02-15 11-46-52.png",
+    "links": {
+      "github": "https://abdoo.live/#main",
+      "linkedin": "https://abdoo.live/#main"
+    }
+  }
+]
