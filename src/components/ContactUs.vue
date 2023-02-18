@@ -16,38 +16,38 @@
       class="from-content grid lg:grid-cols-2-auto md:grid-cols-1 max-sm:grid-cols-1 sm:mx-10 gap-20"
     >
       <div
-        class="info-content md:mx-auto sm:mx-auto text-center text-white font-bold capitalize space-y-10 w-fit"
+        class="info-content grid grid-cols-1 max-sm:mx-auto md:mx-auto sm:mx-auto text-center text-white font-bold capitalize space-y-10 w-fit"
       >
         <div
-          class="dark:bg-cyan-900 bg-teal-300 text-black rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 bg-teal-300 text-black rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="mail-outline"></ion-icon>
-          <h2>email</h2>
-          <p class="">andrewmelad108@gmail.com</p>
+          <h2 class="max-sm:text-sm">email</h2>
+          <p class="max-sm:text-sm">andrewmelad108@gmail.com</p>
           <button class="text-blue-400 font-bold">Send an email</button>
         </div>
         <div
-          class="dark:bg-cyan-900 bg-teal-300 text-black rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 bg-teal-300 text-black rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="logo-whatsapp"></ion-icon>
-          <h2>WhatsApp</h2>
-          <p class="">andrewmelad108@gmail.com</p>
+          <h2 class="max-sm:text-sm">WhatsApp</h2>
+          <p class="max-sm:text-sm">andrewmelad108@gmail.com</p>
 
           <button class="text-blue-400 font-bold">Send a message</button>
         </div>
         <div
-          class="dark:bg-cyan-900 bg-teal-300 text-black hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 rounded-lg w-[400px] p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 bg-teal-300 text-black hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="logo-linkedin"></ion-icon>
-          <h2>Linkedin</h2>
-          <p class="">andrewmelad108@gmail.com</p>
+          <h2 class="max-sm:text-sm">Linkedin</h2>
+          <p class="max-sm:text-sm">andrewmelad108@gmail.com</p>
           <button class="text-blue-400 font-bold">Send a message</button>
         </div>
       </div>
       <div
-        class="form-content self-end text-center text-white font-bold capitalize space-y-10 w-fit"
+        class="form-content self-end text-center text-white font-bold capitalize space-y-10 max-sm:w-auto max-sm:mx-10"
       >
-        <form class="space-y-10 w-full">
+        <form class="space-y-10">
           <input
             type="text"
             name="name"
@@ -79,7 +79,7 @@
           ></textarea>
           <button
             type="submit"
-            class="form-submit space-y-4 text-white mt-2 p-1 rounded-full bg-gradient-to-r from-teal-600 via-teal-400 to-teal-400 w-36 h-11 text-lg"
+            class="form-submit space-y-4 text-white mt-2 p-1 rounded-full bg-gradient-to-r from-teal-600 via-teal-400 to-teal-400 w-36 h-11 text-lg max-sm:block max-sm:mx-auto"
           >
             Send Message
           </button>
