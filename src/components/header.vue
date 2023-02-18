@@ -16,17 +16,35 @@
     <div
       class="social-icons text-5xl cursor-pointer dark:text-teal-400 space-x-6"
     >
-      <ion-icon
-        name="logo-facebook"
-        class="text-blue-500 dark:text-teal-400 dark:hover:text-teal-200"
-      ></ion-icon>
+      <a
+        href="https://www.facebook.com/AndrewMelad70
+      "
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <ion-icon name="logo-facebook" class="dark:hover:text-teal-200"
+          >></ion-icon
+        ></a
+      >
 
-      <ion-icon name="logo-github" class="dark:hover:text-teal-200"> </ion-icon>
+      <a
+        href="https://github.com/AndrewMelad108"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><ion-icon name="logo-github" class="dark:hover:text-teal-200">
+        </ion-icon
+      ></a>
 
-      <ion-icon
-        name="logo-linkedin"
-        class="dark:hover:text-teal-200 text-teal-400"
-      ></ion-icon>
+      <a
+        href="https://www.linkedin.com/in/andrew-melad-b77ab3198/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <ion-icon
+          name="logo-linkedin"
+          class="dark:hover:text-teal-200 text-teal-400"
+        ></ion-icon
+      ></a>
     </div>
     <button
       class="text-xl text-white mt-2 p-1 rounded-full bg-gradient-to-r from-teal-400 via-teal-600 to-teal-800 w-36 h-11"

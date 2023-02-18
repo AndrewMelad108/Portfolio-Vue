@@ -16,32 +16,45 @@
       class="from-content grid lg:grid-cols-2-auto md:grid-cols-1 max-sm:grid-cols-1 sm:mx-10 gap-20"
     >
       <div
-        class="info-content grid grid-cols-1 max-sm:mx-auto md:mx-auto sm:mx-auto text-center text-white font-bold capitalize space-y-10 w-fit"
+        class="info-content grid grid-cols-1 max-sm:mx-auto md:mx-auto sm:mx-auto text-center dark:text-white font-bold capitalize space-y-10 w-fit"
       >
         <div
-          class="dark:bg-cyan-900 bg-teal-300 text-black rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 dark:text-white bg-teal-300 text-black rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="mail-outline"></ion-icon>
           <h2 class="max-sm:text-sm">email</h2>
           <p class="max-sm:text-sm">andrewmelad108@gmail.com</p>
-          <button class="text-blue-400 font-bold">Send an email</button>
+          <a
+            href="mailto:andrewmelad108@gmail.com"
+            class="text-blue-400 font-bold"
+            >Send an Email</a
+          >
         </div>
         <div
-          class="dark:bg-cyan-900 bg-teal-300 text-black rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 dark:text-white bg-teal-300 text-black rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="logo-whatsapp"></ion-icon>
           <h2 class="max-sm:text-sm">WhatsApp</h2>
-          <p class="max-sm:text-sm">andrewmelad108@gmail.com</p>
+          <p class="max-sm:text-sm text-2xl">01210673776</p>
 
-          <button class="text-blue-400 font-bold">Send a message</button>
+          <a
+            href="https://wa.me/01210673776?text=hi"
+            target="_blank"
+            class="text-blue-400 font-bold"
+            >Send a message</a
+          >
         </div>
         <div
-          class="dark:bg-cyan-900 bg-teal-300 text-black hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
+          class="dark:bg-cyan-900 dark:text-white bg-teal-300 text-black hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 rounded-lg p-6 space-y-3 text-xl shadow-xl h-44 shadow-stone-400 hover:bg-gradient-to-tr hover:bg-teal-700 hover: via-teal-500 hover:text-black"
         >
           <ion-icon name="logo-linkedin"></ion-icon>
           <h2 class="max-sm:text-sm">Linkedin</h2>
           <p class="max-sm:text-sm">andrewmelad108@gmail.com</p>
-          <button class="text-blue-400 font-bold">Send a message</button>
+          <a
+            class="text-blue-400 font-bold"
+            href="https://www.linkedin.com/in/andrew-melad-b77ab3198/"
+            >Send a message</a
+          >
         </div>
       </div>
       <div
@@ -72,6 +85,8 @@
             class="bg-transparent border-2 border-teal-300 dark:border-cyan-900 rounded-xl p-4 space-y-3 text-xl w-full"
           />
           <textarea
+            cols="20"
+            rows="5"
             name="message"
             placeholder="Message"
             id=""
