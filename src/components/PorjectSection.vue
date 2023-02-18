@@ -36,7 +36,7 @@
           <div class="relative w-full h-full max-w-2xl md:h-auto">
             <!-- Modal content -->
             <div
-              class="fixed bottom-0 left-0 right-0 bg-white rounded-lg shadow dark:bg-cyan-900 h-[600px] w-[100vw]"
+              class="fixed bottom-0 left-0 right-0 bg-white rounded-lg shadow dark:bg-cyan-900 bg-teal-400 h-[600px] w-[100vw]"
             >
               <!-- Modal header -->
               <div
@@ -82,7 +82,7 @@
                   <p class="leading-5">{{ project.description }}</p>
                   <div class="project-tools space-x-7 space-y-7">
                     <span
-                      class="tool text-center p-2 inline-block dark:text-black w-20 h-10 rounded-lg dark:bg-gradient-to-t dark:from-teal-800 dark:via-teal-500 dark:to-teal-300 w-auto"
+                      class="tool text-center p-2 inline-block dark:text-black w-20 h-10 rounded-lg dark:bg-gradient-to-tr bg-gradient-to-t dark:from-teal-800 dark:via-teal-500 dark:to-teal-300 from-teal-800 via-teal-500 to-teal-300 w-auto"
                       v-for="tool in project.tools"
                       :key="tool.index"
                       >{{ tool }}</span
