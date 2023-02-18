@@ -18,7 +18,11 @@
         :data-modal-toggle="project.id"
         type="section1"
       >
-        <img :src="require(`../assets/${project.image}`)" alt="asd" />
+        <img
+          :src="require(`../assets/${project.image}`)"
+          alt="asd"
+          class="w-auto h-auto"
+        />
         <p class="mt-2 text-2xl font-bold dark:text-white">
           {{ project.name }}
         </p>
@@ -67,11 +71,7 @@
                       v-for="item in project.slider"
                       :key="item"
                     >
-                      <img
-                        :src="require(`../assets/${item}`)"
-                        alt="asd"
-                        class="h-auto"
-                      />
+                      <img :src="require(`../assets/${item}`)" alt="asd" />
                     </el-carousel-item>
                   </el-carousel>
                 </div>
