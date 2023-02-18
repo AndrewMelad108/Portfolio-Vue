@@ -11,7 +11,7 @@
       class="project-items lg:p-12 md:p-12 sm:p-12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-20 max-sm:gap-0 min-h-[400px] rounded-xl bg-gradient-to-tr bg-teal-600 via-teal-400 from-teal-200 dark:bg-gradient-to-tl dark:bg-teal-800 dark:via-teal-700 dark:from-teal-400 max-sm:mx-auto"
     >
       <div
-        class="p-3 bg-teal-300 h-auto rounded-xl max-sm:w-[200px] max-sm:mx-auto max-sm:my-10 cursor-pointer"
+        class="p-3 bg-teal-300 h-auto rounded-xl max-sm:w-[70vw] max-sm:mx-auto max-sm:my-10 cursor-pointer"
         v-for="project in dataInfo"
         :key="project.id"
         :data-modal-target="project.id"
