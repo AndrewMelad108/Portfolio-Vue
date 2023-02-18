@@ -8,10 +8,10 @@
     <h1 class="text-5xl font-bold mb-12 text-teal-400">My Projects</h1>
 
     <div
-      class="project-items p-12 grid lg:grid-cols-3 gap-20 md:grid-cols-2 sm:grid-cols-1 min-h-[400px] rounded-xl bg-gradient-to-tr bg-teal-600 via-teal-400 from-teal-200 dark:bg-gradient-to-tl dark:bg-teal-800 dark:via-teal-700 dark:from-teal-400"
+      class="project-items lg:p-12 md:p-12 sm:p-12 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-20 max-sm:gap-0 min-h-[400px] rounded-xl bg-gradient-to-tr bg-teal-600 via-teal-400 from-teal-200 dark:bg-gradient-to-tl dark:bg-teal-800 dark:via-teal-700 dark:from-teal-400 max-sm:mx-auto"
     >
       <div
-        class="p-3 bg-teal-300 h-auto rounded-xl w-fit cursor-pointer"
+        class="p-3 bg-teal-300 h-auto rounded-xl max-sm:w-[200px] max-sm:mx-auto max-sm:my-10 cursor-pointer"
         v-for="project in dataInfo"
         :key="project.id"
         :data-modal-target="project.id"
@@ -23,7 +23,9 @@
           alt="asd"
           class="w-auto h-auto"
         />
-        <p class="mt-2 text-2xl font-bold dark:text-white">
+        <p
+          class="mt-2 max-sm:mt-0 text-2xl max-sm:text-sm sm:text-sm font-bold dark:text-white"
+        >
           {{ project.name }}
         </p>
         <!-- Main modal -->
@@ -31,12 +33,12 @@
           :id="project.id"
           tabindex="-1"
           aria-hidden="true"
-          class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 md:h-full"
+          class="fixed max-sm:hidden top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 md:h-full"
         >
           <div class="relative w-full h-full max-w-2xl md:h-auto">
             <!-- Modal content -->
             <div
-              class="fixed bottom-0 left-0 right-0 bg-white rounded-lg shadow dark:bg-cyan-900 bg-teal-400 h-[600px] w-[100vw]"
+              class="fixed bottom-0 left-0 right-0 rounded-lg shadow dark:bg-cyan-900 bg-teal-400 h-[600px] w-[100vw]"
             >
               <!-- Modal header -->
               <div
@@ -64,7 +66,9 @@
                 </button>
               </div>
               <!-- Modal body -->
-              <div class="grid grid-cols-2-auto">
+              <div
+                class="grid grid-cols-2-auto md:grid-cols-1 max-sm:grid-cols-1"
+              >
                 <div class="image-slider p-10 pt-0">
                   <el-carousel :interval="4000" type="card" height="200px">
                     <el-carousel-item
