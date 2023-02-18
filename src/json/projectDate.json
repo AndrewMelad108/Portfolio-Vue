@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "project1",
+    "name": "chairs company",
     "image": "1-1.png",
-    "description": "lorem loremloremloremloremloremloremloremloremloremlorem id=1",
-    "tools": ["html", "css", "js"],
+    "description": "using template html html5 css css3 flexbox css grid",
+    "tools": ["html", "css", "grid", "flexbox"],
     "slider": [
       "1-1.png",
       "1-2.png",
@@ -15,26 +15,28 @@
     ],
 
     "links": {
-      "github": "https://abdoo.live/#main",
-      "linkedin": "https://abdoo.live/#main"
+      "github": "https://github.com/AndrewMelad108/chairs-company",
+      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
     }
   },
   {
     "id": 2,
-    "name": "project2",
-    "image": "2-1.png",
-    "description": "lorem loremloremloremloremloremloremloremloremloremlorem id =2",
+    "name": "simple design",
+    "image": "2-2.png",
+    "description": "Simple designs using html , css , boostrap",
     "slider": ["2-1.png", "2-2.png", "2-3.png", "2-4.png", "2-5.png"],
+    "tools": ["html", "css", "boostrap"],
     "links": {
-      "github": "https://abdoo.live/#main",
-      "linkedin": "https://abdoo.live/#main"
+      "github": "https://github.com/AndrewMelad108/simple-front-end-project",
+      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
     }
   },
   {
     "id": 3,
-    "name": "project3",
+    "name": "simple design",
     "image": "3-1.png",
-    "description": "lorem loremloremloremloremloremloremloremloremloremlorem d=3",
+    "description": "Simple designs using html , css , wow.js , jquery , js , ES6 and boostrap",
+    "tools": ["html", "css", "boostrap", "wow.js", "js", "ES6"],
     "slider": [
       "3-1.png",
       "3-2.png",
@@ -51,15 +53,27 @@
       "3-13.png"
     ],
     "links": {
-      "github": "https://abdoo.live/#main",
-      "linkedin": "https://abdoo.live/#main"
+      "github": "https://github.com/AndrewMelad108/simple-front-end-project",
+      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
     }
   },
   {
     "id": 4,
-    "name": "project4",
+    "name": "RestaurantSystem",
     "image": "4-1.png",
-    "description": "lorem loremloremloremloremloremloremloremloremloremlorem d =4",
+    "description": "A project that works on adding restaurants, making an amendment or deletion, adding types or menus to foods, and making an amendment or deletion",
+    "tools": [
+      "html",
+      "css",
+      "boostrap5",
+      "vue.js",
+      "vuex",
+      "vue-router",
+      "vueelidate",
+      "axios",
+      "json-server",
+      "sweetalert2"
+    ],
     "slider": [
       "4-1.png",
       "4-2.png",
@@ -79,15 +93,16 @@
       "4-16.png"
     ],
     "links": {
-      "github": "https://abdoo.live/#main",
-      "linkedin": "https://abdoo.live/#main"
+      "github": "https://github.com/AndrewMelad108/RestaurantSystem",
+      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
     }
   },
   {
     "id": 5,
-    "name": "project5",
+    "name": "tour-and-travel-website",
     "image": "5-1.png",
-    "description": "lorem loremloremloremloremloremloremloremloremloremlorem d=5",
+    "description": "using template html html5 css css3 flexbox css grid",
+    "tools": ["html", "css", "grid", "flexbox"],
     "slider": [
       "5-1.png",
       "5-2.png",
@@ -98,8 +113,27 @@
       "5-7.png"
     ],
     "links": {
-      "github": "https://abdoo.live/#main",
-      "linkedin": "https://abdoo.live/#main"
+      "github": "https://github.com/AndrewMelad108/tour-and-travel-website",
+      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
+    }
+  },
+  {
+    "id": 6,
+    "name": "portfolio",
+    "image": "6-3.png",
+    "description": "A page that displays all information about me personally, including skills, projects, and a field in which I am experienced",
+    "tools": ["vue", "tailwindcss", "json"],
+    "slider": [
+      "6-1.png",
+      "6-2.png",
+      "6-3.png",
+      "6-4.png",
+      "6-5.png",
+      "6-6.png"
+    ],
+    "links": {
+      "github": "https://github.com/AndrewMelad108/portfolio",
+      "linkedin": "https://www.linkedin.com/in/andrew-melad-b77ab3198/"
     }
   }
 ]

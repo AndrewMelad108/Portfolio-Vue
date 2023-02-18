@@ -41,19 +41,12 @@
           <span>10+ Completed</span>
         </div>
         <div
-          class="w-fit leading-6 font-3xl p-4 mt-3 lg:col-span-4 md:col-span-4 sm:col-start-1 sm:col-end-2 text-start rounded-lg dark:bg-gradient-to-br dark:bg-teal-900 dark:via-teal-700 dark:from-teal-400 bg-gradient-to-tr bg-teal-700 via-teal-400 from-teal-200 dark:text-white"
+          class="w-fit leading-8 font-3xl p-4 mt-3 lg:col-span-4 md:col-span-4 sm:col-start-1 sm:col-end-2 text-start rounded-lg dark:bg-gradient-to-br dark:bg-teal-900 dark:via-teal-700 dark:from-teal-400 bg-gradient-to-tr bg-teal-700 via-teal-400 from-teal-200 dark:text-white"
         >
-          I am currently pursuing Bachelor Degree(Final Year) in Computer
-          Science from University Of the People. I have 2+ years of work
-          experience in Web Development in different projects with different
-          frameworks. I learn programming, computer science, and IT since 2016
-          which gave me a good experience about computer science major and made
-          me teaching programming in high school and university. I am addicted
-          to learning about everything specially when it's about technologies. I
-          worked as a software developer in many projects and got some
-          experience in software engineering from courses and working. I'm a
-          self-learner who can learn the skills that will develop me and the
-          environment around me.
+          Hello Welcome to my portfolio. I hope I could be of any assistance.
+          Fresh Graduate from computer Science college who is experienced as a
+          Frontend Developer I seek to gain more practical experience. I am
+          always developing my skills so please check my latest work.
         </div>
         <div
           class="dark:bg-teal-500 dark:text-white font-3xl p-4 mt-3 grid lg:col-span-4 md:col-span-4 text-start rounded-lg dark:bg-gradient-to-br dark:bg-teal-900 dark:via-teal-700 dark:from-teal-400 bg-gradient-to-tr bg-teal-700 via-teal-400 from-teal-200"
@@ -65,75 +58,14 @@
             class="skills-content mt-10 space-x-20 capitalize grid grid-cols-1 h-auto items-center content-center space-y-4 max-sm:space-x-10"
           >
             <div
+              v-for="skill in skills"
+              :key="skill.index"
               class="html mx-20 h-9 w-9/12 max-sm:mx-10 rounded-full bg-white"
             >
               <div
                 class="font-bold h-9 w-11/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
               >
-                html
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-10/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                css
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-10/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                boostrap
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-7/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                sass
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-8/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                jquery
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-9/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                java script
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-9/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                bom
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-9/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                dom
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-9/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                oop
-              </div>
-            </div>
-            <div class="html h-9 w-9/12 rounded-full bg-white">
-              <div
-                class="font-bold h-9 w-9/12 bg-gradient-to-r from-teal-700 via-teal-500 to-teal-300 rounded-full p-1 pl-3"
-              >
-                vue.js
+                {{ skill }}
               </div>
             </div>
           </div>
@@ -147,7 +79,23 @@
 export default {
   name: "aboutSection",
   data() {
-    return {};
+    return {
+      skills: [
+        "HTML",
+        "CSS",
+        "JS",
+        "ES6",
+        "OOP",
+        "BOM",
+        "DOM",
+        "Boostrap5",
+        "Tailiwind css",
+        "vue.js",
+        "axios",
+        "vuex",
+        "c++",
+      ],
+    };
   },
 };
 </script>

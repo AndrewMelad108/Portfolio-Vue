@@ -49,7 +49,7 @@
         >
           <ion-icon name="logo-linkedin"></ion-icon>
           <h2 class="max-sm:text-sm">Linkedin</h2>
-          <p class="max-sm:text-sm">andrewmelad108@gmail.com</p>
+          <p class="max-sm:text-sm">Andrew Melad</p>
           <a
             class="text-blue-400 font-bold"
             href="https://www.linkedin.com/in/andrew-melad-b77ab3198/"
@@ -90,7 +90,7 @@
             name="message"
             placeholder="Message"
             id=""
-            class="bg-transparent border-2 border-teal-300 dark:border-cyan-900 rounded-xl p-4 space-y-3 text-xl w-full"
+            class="resize-none bg-transparent border-2 border-teal-300 dark:border-cyan-900 rounded-xl p-4 space-y-3 text-xl w-full"
           ></textarea>
           <button
             type="submit"

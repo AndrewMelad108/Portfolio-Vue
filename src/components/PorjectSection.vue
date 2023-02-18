@@ -27,12 +27,12 @@
           :id="project.id"
           tabindex="-1"
           aria-hidden="true"
-          class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
+          class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 md:h-full"
         >
           <div class="relative w-full h-full max-w-2xl md:h-auto">
             <!-- Modal content -->
             <div
-              class="fixed bottom-0 left-0 right-0 bg-white rounded-lg shadow dark:bg-cyan-900 h-[400px] w-[100vw]"
+              class="fixed bottom-0 left-0 right-0 bg-white rounded-lg shadow dark:bg-cyan-900 h-[600px] w-[100vw]"
             >
               <!-- Modal header -->
               <div
@@ -80,9 +80,9 @@
                     {{ project.name }}
                   </h1>
                   <p class="leading-5">{{ project.description }}</p>
-                  <div class="project-tools mt-10 space-x-7">
+                  <div class="project-tools space-x-7 space-y-7">
                     <span
-                      class="tool text-center pt-2 inline-block dark:text-black w-20 h-10 rounded-lg dark:bg-gradient-to-t dark:from-teal-800 dark:via-teal-500 dark:to-teal-300"
+                      class="tool text-center p-2 inline-block dark:text-black w-20 h-10 rounded-lg dark:bg-gradient-to-t dark:from-teal-800 dark:via-teal-500 dark:to-teal-300 w-auto"
                       v-for="tool in project.tools"
                       :key="tool.index"
                       >{{ tool }}</span
@@ -92,7 +92,7 @@
               </div>
 
               <div
-                class="project-links mb-10 h-56 flex justify-center space-x-6 flex-start"
+                class="project-links m-20 h-56 flex justify-center space-x-6 flex-start"
               >
                 <a
                   :href="project.links.github"
